@@ -38,7 +38,7 @@ body, html {
 }
 
 #Home {background-color: black;}
-#News {background-color: green;}
+#News {background-color: #1F1D36;}
 #Contact {background-color: blue;}
 #About {background-color: orange;}
 #Cats {background-color: red;}
@@ -46,8 +46,8 @@ body, html {
 </head>
 <body>
 
-<button class="tablink" onclick="openPage('Home', this, 'black')">Research Proposal</button>
-<button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">Background/Review of the Literature</button>
+<button class="tablink" onclick="openPage('Home', this, 'black')" id="defaultOpen">Research Proposal</button>
+<button class="tablink" onclick="openPage('News', this, #1F1D36)">Background/Review of the Literature</button>
 <button class="tablink" onclick="openPage('Contact', this, 'blue')">Method & Design</button>
 <button class="tablink" onclick="openPage('About', this, 'orange')">Procedure & Analysis</button>
 <button class="tablink" onclick="openPage('Cats', this, 'red')">Significance & Conclusion</button>
@@ -59,23 +59,23 @@ body, html {
 </div>
 
 <div id="News" class="tabcontent">
-  <h3>Background/Review of the Literature</h3>
-  <p>Some news this fine day!</p> 
+  <h3>Background</h3>
+  <p>Add text here...</p> 
 </div>
 
 <div id="Contact" class="tabcontent">
   <h3>Method & Design</h3>
-  <p>Get in touch, or swing by for a cup of coffee.</p>
+  <p>Add text here...</p>
 </div>
 
 <div id="About" class="tabcontent">
   <h3>Procedure & Analysis</h3>
-  <p>Who we are and what we do.</p>
+  <p>Add text here...</p>
 </div>
   
 <div id="Cats" class="tabcontent">
   <h3>Significance & Conclusion</h3>
-  <p>Who we are and what we do.</p>
+  <p>Add text here...</p>
 </div>
 
 <script>
