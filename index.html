@@ -41,14 +41,16 @@ body, html {
 #News {background-color: green;}
 #Contact {background-color: blue;}
 #About {background-color: orange;}
+#Cats {background-color: red;}
 </style>
 </head>
 <body>
 
 <button class="tablink" onclick="openPage('Home', this, 'black')">Research Proposal</button>
-<button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
-<button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
-<button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+<button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">Background/Review of the Literature</button>
+<button class="tablink" onclick="openPage('Contact', this, 'blue')">Method & Design</button>
+<button class="tablink" onclick="openPage('About', this, 'orange')">Procedure & Analysis</button>
+<button class="tablink" onclick="openPage('Cats', this, 'red')">Significance & Conclusion</button>
 
 <div id="Home" class="tabcontent">
   <h1>Research Proposal</h1>
@@ -57,17 +59,22 @@ body, html {
 </div>
 
 <div id="News" class="tabcontent">
-  <h3>News</h3>
+  <h3>Background/Review of the Literature</h3>
   <p>Some news this fine day!</p> 
 </div>
 
 <div id="Contact" class="tabcontent">
-  <h3>Contact</h3>
+  <h3>Method & Design</h3>
   <p>Get in touch, or swing by for a cup of coffee.</p>
 </div>
 
 <div id="About" class="tabcontent">
-  <h3>About</h3>
+  <h3>Procedure & Analysis</h3>
+  <p>Who we are and what we do.</p>
+</div>
+  
+<div id="Cats" class="tabcontent">
+  <h3>Significance & Conclusion</h3>
   <p>Who we are and what we do.</p>
 </div>
 
